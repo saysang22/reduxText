@@ -62,7 +62,7 @@ function App() {
           <div className='row'>
             {
               a.map((result, i) => {
-                return <CardView result = {result} key={i} index = {i}/>
+                return <CardView result = {result} key={result.id} index = {result.id}/>
 
               })
             }

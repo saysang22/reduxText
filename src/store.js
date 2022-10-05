@@ -13,11 +13,11 @@ let dataText = createSlice({
         changeSort(state){
             state.sort(function(a, b){
                 
-                console.log(a.title.toUpperCase());
-                console.log(b.title.toUpperCase());
+                console.log(a.title);
+                // console.log(b.title.toUpperCase());
                 
-                var title01 = a.title.toUpperCase();
-                var title02 = b.title.toUpperCase();
+                var title01 = a.title;
+                var title02 = b.title;
 
                 if(title01 < title02) {
                     return -1;
